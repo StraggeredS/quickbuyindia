@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart - QuickBuy India</title>
+
+  <!-- Snipcart CSS -->
+  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.css" />
+
+  <!-- Optional styling -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      padding: 2rem;
+      background: #fffafc;
+      color: #333;
+    }
+    h1 {
+      color: #ff4081;
+    }
+    .snipcart-checkout {
+      margin-top: 1.5rem;
+      padding: 0.75rem 2rem;
+      font-size: 1rem;
+      background: #ff4081;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .snipcart-checkout:hover {
+      background: #e91e63;
+    }
+  </style>
+
+  <!-- Snipcart JS -->
+  <script async src="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js"></script>
+</head>
+<body>
+  <h1>🛒 Your Shopping Cart</h1>
+
+  <p>Click below to view your cart and complete your purchase.</p>
+
+  <button class="snipcart-checkout">Proceed to Checkout</button>
+
+  <!-- Replace YOUR_PUBLIC_API_KEY with your Snipcart public key -->
+  <div hidden id="snipcart" data-api-key="YjBlMmZlZTEtYmUxNS00OGUzLWIxZWItOTVkNzRjOWE2YTUyNjM4ODU2OTI1MTQ3MjgzNjEy"></div>
+</body>
+</html>
