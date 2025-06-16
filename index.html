@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QuickBuy India – Toys & More</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #fffefa; color: #333; }
+
+    header { background: #ff4081; padding: 1rem; text-align: center; color: white; }
+    nav { background: #f06292; padding: 0.5rem; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+
+    .banner {
+      background: url('https://cdn.pixabay.com/photo/2017/10/10/21/49/toys-2835237_1280.jpg') no-repeat center center/cover;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 4px #000;
+      font-size: 2rem;
+    }
+
+    .section { padding: 2rem; }
+    .section h2 { font-size: 1.8rem; color: #ff4081; margin-bottom: 1rem; text-align: center; }
+
+    .category-nav {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .category-nav a {
+      display: inline-block;
+      margin: 0.5rem 1rem;
+      padding: 0.5rem 1rem;
+      background: #ffe0ec;
+      color: #d81b60;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+
+    .category-nav a:hover {
+      background: #ffb6c1;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background: white;
+      border: 1px solid #eee;
+      padding: 1rem;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      transition: 0.3s;
+    }
+
+    .product-card:hover { transform: translateY(-5px); }
+
+    .product-card img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; }
+    .price { margin-top: 0.5rem; font-size: 1.2rem; color: #e91e63; }
+    .btn {
+      margin-top: 0.7rem;
+      background: #ff4081;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 6px;
+      display: inline-block;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+
+    @media screen and (max-width: 600px) {
+      .banner { font-size: 1.2rem; height: 180px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🧸 QuickBuy India</h1>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#toys">Toys</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="banner">
+  🎁 Discover Fun & Learning with Our Best Toys!
+</section>
+
+<div class="category-nav">
+  <a href="#plush">Plush Toys</a>
+  <a href="#electronic">Electronic Toys</a>
+  <a href="#creative">Creative Toys</a>
+</div>
+
+<section class="section" id="toys">
+  <h2>Best-Selling Toys</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/61hUDtL9KOL._AC_UL640_FMwebp_QL65_.jpg" alt="Dancing Cactus Toy"/>
+      <h3>Dancing Cactus Toy</h3>
+      <p class="price">₹499 <s>₹699</s></p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/51VdGBs1NPL._AC_UL640_FMwebp_QL65_.jpg" alt="RC Stunt Car"/>
+      <h3>360° RC Stunt Car</h3>
+      <p class="price">₹999 <s>₹1499</s></p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/71yDGQJwKXL._AC_UL640_FMwebp_QL65_.jpg" alt="Bubble Gun"/>
+      <h3>Bubble Gun with Lights</h3>
+      <p class="price">₹599 <s>₹899</s></p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/71rYpCBQ0-L._AC_UL640_FMwebp_QL65_.jpg" alt="Magnetic Building Blocks"/>
+      <h3>Magnetic Building Blocks</h3>
+      <p class="price">₹799 <s>₹1199</s></p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/71mWAPuZIjL._AC_UL640_FMwebp_QL65_.jpg" alt="Soft Plush Panda"/>
+      <h3>Soft Plush Panda (Large)</h3>
+      <p class="price">₹699 <s>₹899</s></p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="https://m.media-amazon.com/images/I/61ReKGGbnsL._AC_UL640_FMwebp_QL65_.jpg" alt="Toy Kitchen Set"/>
+      <h3>Mini Toy Kitchen Set</h3>
+      <p class="price">₹499 <s>₹749</s></p>
+      <a href="#" class="btn">Buy Now</a>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <p>📞 Contact us: quickbuyindia@gmail.com</p>
+  <p>🔐 100% Secure Payment | 🛍️ Easy Returns | 🚚 Fast Delivery</p>
+  <p>© 2025 QuickBuy India. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
