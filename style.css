@@ -1,0 +1,64 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+header, footer {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+}
+.top-bar {
+  background-color: #333;
+  text-align: center;
+  font-size: 0.9rem;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  background: #ffdd57;
+  text-align: center;
+  padding: 2rem;
+}
+.hero .btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: black;
+  color: white;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+.category {
+  padding: 2rem;
+  background: white;
+}
+.products {
+  display: flex;
+  gap: 1rem;
+}
+.product {
+  background: #eee;
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1;
+}
+.contact {
+  padding: 2rem;
+  background: #ddd;
+}
+.contact form input,
+.contact form textarea {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
