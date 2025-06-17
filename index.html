@@ -199,8 +199,21 @@
     <a href="https://wa.me/916291837049?text=Hi%2C%20I%20just%20paid%20for%20my%20order.%20Here%20is%20my%20payment%20screenshot." target="_blank" class="btn" style="display:block; margin-top:20px; text-align:center;">Send Order on WhatsApp</a>
   </div>
 </div>
+<div id="paymentModal" class="modal" style="display:none; ...">
+  <div class="modal-content" style="...">
+    <span class="close">&times;</span>
 
-<script src="js/payment-modal.js"></script>
-	
+    <h2>Complete Your Purchase</h2>
+    <img src="images/upi-qr.png" alt="UPI QR" style="width:130px; margin: 10px auto;" />
+
+    <p class="upi-id"><strong>UPI ID:</strong> <span></span></p>
+    <p class="product-name" style="margin-bottom: 0;"></p>
+    <p class="product-price" style="font-weight: bold;"></p>
+
+    <a class="btn whatsapp-link" target="_blank">Send Order on WhatsApp</a>
+  </div>
+</div>
+
+<script src="js/payment-modal.js"></script>	
 </body>
 </html>
